@@ -15,31 +15,31 @@ app.use(json());
 let todos = [
 	{
 		id: nanoid(),
-		title: 'todo 1',
+		title: 'Edital 1',
 		completed: true,
 		valor: 1000,
 	},
 	{
 		id: nanoid(),
-		title: 'todo 2',
+		title: 'Edital 2',
 		completed: false,
 		valor: 2000,
 	},
 	{
 		id: nanoid(),
-		title: 'todo 3',
+		title: 'Edital 2',
 		completed: false,
 		valor: 7000,
 	},
 	{
 		id: nanoid(),
-		title: 'todo 4',
+		title: 'Edital 4',
 		completed: false,
 		valor: 1000,
 	},
 	{
 		id: nanoid(),
-		title: 'todo 5',
+		title: 'Edital 5',
 		completed: false,
 		valor: 1000,
 	},
@@ -48,19 +48,19 @@ let todos = [
 let propostas = [
 	{
 		id: nanoid(),
-		nome:'Proposta',
+		nome:'Proposta 1',
 		completed: false,
 		valorProposta:500
 	},
 	{ 	
 		id: nanoid(),
-		nome:'Proposta2',
+		nome:'Proposta 2',
 		completed: false,
 		valorProposta:1500
 	},
 	{   
 		id: nanoid(),
-		nome:'Proposta3',
+		nome:'Proposta 3',
 		completed: false,
 		valorProposta:600
 	}

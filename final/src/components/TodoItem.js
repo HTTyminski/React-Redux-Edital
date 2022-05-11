@@ -26,7 +26,7 @@ const TodoItem = ({ id, title, completed,valor }) => {
 					{title} | {valor}
 				</span>
 				<button onClick={handleDeleteClick} className='btn btn-danger'>
-					Delete
+					Remover
 				</button>
 			</div>
 		</li>
